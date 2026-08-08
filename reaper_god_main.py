@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # ======================================================================
 # REAPERSCAN GOD EDITION - MAIN SCANNER
 # File ini berisi semua logika scanning
@@ -32,7 +33,7 @@ import datetime
 # ======================================================================
 # ASCII ART - GOD EYE
 # ======================================================================
-GOD_EYE_ASCII = r"""    
+GOD_EYE_ASCII = r"""
  ░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓███████▓▒░       ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░ 
 ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
 ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
@@ -42,10 +43,10 @@ GOD_EYE_ASCII = r"""
  ░▒▓██████▓▒░ ░▒▓██████▓▒░░▒▓███████▓▒░       ░▒▓████████▓▒░  ░▒▓█▓▒░   ░▒▓████████▓▒░ 
                                                                                                          
   ╔══════════════════════════════════════════════════════════════════════╗
-  ║
-  ║  ⚡ REAPERSCAN GOD EDITION - EYE OF THE HUNTER ⚡              ║
-  ║  Web + Cloud + Infrastructure Vulnerability Scanner             ║
-  ║  Version 3.0 | Author: ANONidh | B2HUNTERS                   ║
+  ║                                                                      ║
+  ║  ⚡ REAPERSCAN GOD EDITION - EYE OF THE HUNTER ⚡                    ║
+  ║  Web + Cloud + Infrastructure Vulnerability Scanner                   ║
+  ║  Version 3.0 | Author: ANONidh | B2HUNTERS                           ║
   ╚══════════════════════════════════════════════════════════════════════╝
 """
 
@@ -619,6 +620,15 @@ class ReaperGod:
 # MAIN
 # ======================================================================
 def main():
+    # ============================================================
+    # TAMPILAN ASCII GOD EYE
+    # ============================================================
+    print(Fore.RED + GOD_EYE_ASCII + Style.RESET_ALL)
+    print(Fore.YELLOW + "="*70 + Style.RESET_ALL)
+    print(Fore.GREEN + "[+] ReaperScan God Edition Loaded Successfully!" + Style.RESET_ALL)
+    print(Fore.YELLOW + "="*70 + Style.RESET_ALL)
+    print()
+
     parser = argparse.ArgumentParser(description="ReaperScan God Edition - Web + Cloud + Infra")
     parser.add_argument("-u", "--url", required=True, help="Target URL")
     parser.add_argument("-p", "--params", help="Parameters (key=value)")
