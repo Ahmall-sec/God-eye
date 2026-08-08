@@ -45,8 +45,8 @@ GOD_EYE_ASCII = r"""
   ╔══════════════════════════════════════════════════════════════════════╗
   ║                                                                      ║
   ║  ⚡ REAPERSCAN GOD EDITION - EYE OF THE HUNTER ⚡                    ║
-  ║  Web + Cloud + Infrastructure Vulnerability Scanner                   ║
-  ║  Version 3.0 | Author: ANONidh | B2HUNTERS                           ║
+  ║  Web + Cloud + Infrastructure Vulnerability Scanner                  ║
+  ║  Version 3.0 | Author: Ahmalll                                       ║
   ╚══════════════════════════════════════════════════════════════════════╝
 """
 
