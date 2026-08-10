@@ -3,7 +3,6 @@
 Ultimate Vulnerability Scanner - Web + Cloud + Infrastructure
 100+ Vulnerability Types • 1100+ Payloads • Full Takeover Capable
 
----
 
 ## 🚀 FITUR UTAMA
 
@@ -60,12 +59,11 @@ Ultimate Vulnerability Scanner - Web + Cloud + Infrastructure
 - Bypass WAF
 - Payload Rotator
 
----
 
 ## 📦 INSTALLASI
 
 ### 1. Clone Repository
-git clone https://github.com/username/reaper-god.git
+git clone https://github.com/g0d150ne/reaper-god.git
 cd reaper-god
 
 ### 2. Install Dependencies
@@ -99,7 +97,6 @@ python3 reaper_god_main.py -u "https://target.com/admin.php" -c "PHPSESSID=abc12
 ### Custom Threads
 python3 reaper_god_main.py -u "https://target.com/page.php?id=1" -p "id=1" --all -t 50
 
----
 
 ## 📊 HASIL SCAN
 
@@ -120,7 +117,6 @@ python3 reaper_god_main.py -u "https://target.com/page.php?id=1" -p "id=1" --all
   "timestamp": "2024-01-15 14:30:22"
 }
 
----
 
 ## 📁 STRUKTUR FILE
 
@@ -130,7 +126,6 @@ reaper-god/
 ├── README.md                   # Dokumentasi ini
 └── requirements.txt            # Dependencies
 
----
 
 ## ⚙️ KONFIGURASI
 
@@ -144,7 +139,6 @@ C2_SERVER = "https://your-c2-server.com"  # Server untuk reverse shell
 BACKDOOR_PORT = 4444      # Port untuk backdoor
 PROXIES = []              # Daftar proxy (opsional)
 
----
 
 ## 🎯 PAYLOAD LENGKAP
 
@@ -162,7 +156,6 @@ Cloud Metadata     | 20+
 Lain-lain          | 800+
 TOTAL              | 1100+
 
----
 
 ## 🔧 DEPENDENCIES
 
@@ -172,7 +165,6 @@ paramiko>=2.12.0
 ftplib>=1.0.1
 urllib3>=1.26.0
 
----
 
 ## ⚠️ DISCLAIMER
 
@@ -182,7 +174,6 @@ Tools ini dibuat untuk tujuan educational dan authorized testing ONLY.
 - Segala penyalahgunaan menjadi tanggung jawab pengguna
 - Penulis tidak bertanggung jawab atas kerusakan atau kerugian yang timbul
 
----
 
 ## 📌 UPDATE LOG
 
@@ -203,15 +194,12 @@ Tools ini dibuat untuk tujuan educational dan authorized testing ONLY.
 - Web Scanner Dasar
 - SQLi, XSS, LFI, RFI
 
----
 
 ## 📞 KONTAK
 
-Author: Ahmall
-GitHub: https://github.com/ahmall-sec
+GitHub: https://github.com/g0d150ne
 Telegram: @G0D150NE
 
----
 
 Made with ❤️ by G0D150NE
 "Dengan kekuatan besar, datang tanggung jawab besar"
